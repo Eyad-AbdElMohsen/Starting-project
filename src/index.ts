@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import express , {Express , Request , Response}from "express" 
 import errorMiddleware from "./middlewares/error.middleware";
 import notFoundMiddleware from "./middlewares/notFound.middleware";
-
+import { requestLogger } from "./middlewares/requestLogger.middleware";
 
 dotenv.config()
 
