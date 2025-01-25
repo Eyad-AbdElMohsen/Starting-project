@@ -12,8 +12,8 @@
 * Clone the Repository
 
 ```
-git clone <https://github.com/Eyad-AbdElMohsen/Starting-project> your-project-name
-cd your-project-name
+git clone https://github.com/Eyad-AbdElMohsen/Starting-project.git "your-project-name"
+cd "your-project-name"
 ```
 * Remove Old Git History  <br>
 Delete the .git folder to remove the link to the original repository:
